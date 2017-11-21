@@ -169,5 +169,9 @@ public class User implements Serializable {
     public String toString() {
         return "domainmodel.User[ username=" + username + " ]";
     }
+
+    public Object Role() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
